@@ -13,5 +13,5 @@
   <project path="vendor/xiaomi/vili" name="owens-android/proprietary_vendor_xiaomi_vili" remote="github" revision="lineage-23.2" />
 
   <!-- Vendor Common Tree -->
-  <project path="vendor/xiaomi/sm8350-common" name="TheMuppets/proprietary_vendor_xiaomi_sm8350-common" remote="github" revision="lineage-19.0" />
+  <project path="vendor/xiaomi/sm8350-common" name="TheMuppets/proprietary_vendor_xiaomi_sm8350-common" remote="github" revision="lineage-19.1" />
 </manifest>
