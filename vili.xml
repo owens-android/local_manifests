@@ -3,9 +3,15 @@
   <!-- Device Tree -->
   <project path="device/xiaomi/vili" name="owens-android/android_device_xiaomi_vili" remote="github" revision="lineage-19.1" />
 
+  <!-- Device Common Tree -->
+  <project path="device/xiaomi/sm8350-common" name="LineageOS/android_device_xiaomi_sm8350-common" remote="github" revision="lineage-19.1" />
+
   <!-- Kernel Tree -->
   <project path="kernel/xiaomi/sm8350" name="owens-android/android_kernel_xiaomi_sm8350" remote="github" revision="lineage-23.2" />
 
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/vili" name="owens-android/proprietary_vendor_xiaomi_vili" remote="github" revision="lineage-23.2" />
+
+  <!-- Vendor Common Tree -->
+  <project path="vendor/xiaomi/sm8350-common" name="TheMuppets/proprietary_vendor_xiaomi_sm8350-common" remote="github" revision="lineage-23.2" />
 </manifest>
