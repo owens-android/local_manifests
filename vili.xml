@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Remote para GitLab (donde TheMuppets guarda los binarios actuales) -->
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
   <!-- Device Tree -->
   <project path="device/xiaomi/vili" name="owens-android/android_device_xiaomi_vili" remote="github" revision="lineage-19.1" />
 
@@ -12,6 +15,6 @@
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/vili" name="owens-android/proprietary_vendor_xiaomi_vili" remote="github" revision="lineage-19.1" />
 
-  <!-- Vendor Common Tree (Cambiado a repositorio con soporte lineage-19.1) -->
-  <project path="vendor/xiaomi/sm8350-common" name="Xiaomi-Evolution/proprietary_vendor_xiaomi_sm8350-common" remote="github" revision="lineage-19.1" />
+  <!-- Vendor Common Tree desde GitLab (TheMuppets) -->
+  <project path="vendor/xiaomi/sm8350-common" name="themuppets/proprietary_vendor_xiaomi_sm8350-common" remote="gitlab" revision="lineage-19.1" />
 </manifest>
