@@ -9,9 +9,8 @@
   <!-- Device Common Tree -->
   <project path="device/xiaomi/sm8350-common" name="LineageOS/android_device_xiaomi_sm8350-common" remote="github" revision="lineage-19.1" />
 
-  <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/sm8350" name="owens-android/android_kernel_xiaomi_sm8350" remote="github" revision="lineage-23.2" />
-
+ <!-- Kernel Tree (Corregido a una rama compatible con Lineage 19.1) -->
+  <project path="kernel/xiaomi/sm8350" name="owens-android/android_kernel_xiaomi_sm8350" remote="github" revision="lineage-19.1" />
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/vili" name="owens-android/proprietary_vendor_xiaomi_vili" remote="github" revision="lineage-19.1" />
 
